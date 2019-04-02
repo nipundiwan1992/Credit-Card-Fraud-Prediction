@@ -9,7 +9,6 @@ library(caret)
 library(e1071)
 
 #install.packages('shinydashboard')
-
 #install.packages('caret')
 ########################### READING DATA ###########################
 
