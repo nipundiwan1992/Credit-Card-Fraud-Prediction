@@ -9,7 +9,6 @@ library(caret)
 library(e1071)
 
 #install.packages('shinydashboard')
-
 #install.packages('caret')
 ########################### READING DATA ###########################
 
@@ -61,16 +60,6 @@ ui<-fluidPage(theme = shinytheme("darkly"),
                                             style = "color:gold;font-family:Courier;text-align:left",
                                             icon("hourglass",class="fa-align-right fa-3x")), 
                                          value=1,min=1,max=12)
-                            #   sliderInput("amount",
-                            #              h2("Transaction Amount", 
-                            #               style = "color:gold;font-family:Courier;text-align:left",
-                            #                icon("robber",class="fa-align-right fa-3x")), 
-                            #           value=208,min=1,max=1000,step=50),
-                            
-                            
-                            
-                            
-                            
                   )), 
            column(width = 5, offset=3,
                   wellPanel(style="border: solid 2px green;background-color: maroon",
